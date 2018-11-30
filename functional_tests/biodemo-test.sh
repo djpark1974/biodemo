@@ -91,7 +91,7 @@ function parse_args {
 # ARG3: expected exit status
 function test_stdout_exit {
     let num_tests+=1
-    output=$(eval $1)
+    output=$(eval "coverage run -a ${1/$test_program/$(which $test_program)}")
     exit_status=$?
     expected_output_file=$2
     expected_exit_status=$3
@@ -125,7 +125,7 @@ function test_stdout_exit {
 # important
 function test_exit_status {
     let num_tests+=1
-    output=$(eval $1)
+    output=$(eval "coverage run -a ${1/$test_program/$(which $test_program)}")
     exit_status=$?
     expected_exit_status=$2
     verbose_message "Testing exit status: $1"
