@@ -1,4 +1,4 @@
-[![travis](https://travis-ci.org/djpark1974/biodemo.svg?branch=master)](https://travis-ci.org/USERNAME/biodemo)
+[![travis](https://travis-ci.org/djpark1974/biodemo.svg?branch=master)](https://travis-ci.org/djpark1974/biodemo)
 
 # Overview 
 
