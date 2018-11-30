@@ -159,7 +159,7 @@ FILENAME	NUMSEQ	TOTAL	MIN	AVG	MAX
 empty.fa	0	0	-	-	-
 ```
 
-# Exit status values
+# Exit status values are awesome
 
 Biodemo returns the following exit status values:
 
