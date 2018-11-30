@@ -7,6 +7,8 @@ LONG_DESCRIPTION = \
 For each file it computes a variety of statistics, and then
 prints a summary of the statistics as output.
 
+Making changes.
+
 The goal is to provide a solid foundation for new bioinformatics command line tools,
 and is an ideal starting place for new projects.'''
 
