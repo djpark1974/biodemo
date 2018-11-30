@@ -1,5 +1,5 @@
 [![travis](https://travis-ci.org/djpark1974/biodemo.svg?branch=master)](https://travis-ci.org/djpark1974/biodemo)
-
+[![codecov](https://codecov.io/github/djpark1974/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/djpark1974/biodemo)
 # Overview 
 
 This program reads one or more input FASTA files. For each file it computes a variety of statistics, and then prints a summary of the statistics as output.
